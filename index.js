@@ -7,7 +7,7 @@ const productRoutes = require('./routes/productRoutes');
 const userRoutes = require('./routes/userRoutes');
 app.use(express.json());
 
-app.get('/toplawyers', (req,res)=>
+app.get('/api/toplawyers', (req,res)=>
     {
         const TopLawyersContent = [
             {
